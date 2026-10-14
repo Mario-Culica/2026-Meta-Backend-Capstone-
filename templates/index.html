@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #edefee;
+        }
+
+        h1 {
+            color: #495e57;
+            margin-bottom: 30px;
+        }
+
+        .restaurant-logo {
+            display: block;
+            width: 400px;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome To Little Lemon Restaurant</h1>
+
+    <img
+        src="{% static 'img/logo.png' %}"
+        alt="Little Lemon Restaurant Logo"
+        class="restaurant-logo"
+    >
+
+</body>
+</html>
